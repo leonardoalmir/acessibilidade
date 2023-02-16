@@ -24,9 +24,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
-
+  <a href="#conteudoPrincipal" class="pularNavegacao">Pular para conteúdo principal</a>
   <header class="cabecalho container">
-    <a href="#" class="cabecalho-logo">
+    <a href="#" class="cabecalho-logo" title="Logotipo Apeperia">
         <svg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <desc>Created using Figma</desc>
           <g id="Canvas" transform="translate(-2230 1001)">
@@ -65,7 +65,7 @@
   <main class="conteudo">
 
     <section class="secaoDestaque">
-      <h1 class="secaoDestaque-titulo">
+      <h1 class="secaoDestaque-titulo" id="conteudoPrincipal">
         APLICATIVOS NA MEDIDA
       </h1>
       <h2 class="secaoDestaque-texto">
@@ -110,12 +110,12 @@
 
     <section class="secaoSobre clearfix">
       <div class="container">
-        <img src="img/sobre-apeperia.png" alt="Dois homens escrevendo num quadro branco" class="secaoSobre-imgDestaque">
+        <img src="img/sobre-apeperia.png" alt="Dois homens concentrados idealizando um novo projeto num quadro branco" class="secaoSobre-imgDestaque">
         <h2 class="secaoSobre-titulo tituloPadrao">
           SOBRE
         </h2>
         <p class="secaoSobre-texto">
-          Criamos aplicativos personalizados de maneira diferente e para <b>todxs</b>!
+          Criamos aplicativos personalizados de maneira diferente e para <b>todas as pessoas</b>!
         </p>
         <p class="secaoSobre-texto">
           Preocupados com o modelo atual em que um aplicativo é criado entregue e a manutenção é vista como um custo extra para o cliente, decidimos criar um novo modelo de negócio, em que você assina nosso serviço, nós criamos o aplicativo e a manutenção já é inclusa no serviço. Dessa maneira você não se preocupa com atualização, é tudo por nossa conta.
@@ -274,22 +274,22 @@
       <div class="container">
         <h2 class="secaoDestaques-titulo tituloPadrao">DESTAQUES</h2>
 
-        <a href="http://blog.apeperia.com.br/design/conheca-primeiras-etapas-criacao-logotipo-teste-teste" class="secaoDestaques-link">
-          <div class="secaoDestaques-destaque">
+        <a href="http://blog.apeperia.com.br/design/conheca-primeiras-etapas-criacao-logotipo-teste-teste" class="secaoDestaques-link" aria-labelledby="tituloDestaque1">
+          <figure class="secaoDestaques-destaque">
             <img src="img/comecando-criar-logotipo.png" alt="Ferramentas de um designer. Ilustração" class="secaoDestaques-destaque-img">
-            <p class="secaoDestaques-destaque-titulo"  id="tituloDestaque1">
+            <figcaption class="secaoDestaques-destaque-titulo"  id="tituloDestaque1">
               Conheça as primeiras etapas na criação de um logotipo
-            </p>
-          </div>
+            </figcaption>
+          </figure>
         </a>
 
-        <a href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular" class="secaoDestaques-link">
-          <div class="secaoDestaques-destaque">
+        <a href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular" class="secaoDestaques-link" aria-labelledby="tituloDestaque2">
+          <figure class="secaoDestaques-destaque">
             <img src="img/dicas-fotografia.png" alt="Uma mulher mostrando uma camera para um homem" class="secaoDestaques-destaque-img">
-            <p class="secaoDestaques-destaque-titulo"  id="tituloDestaque2">
+            <figcaption class="secaoDestaques-destaque-titulo"  id="tituloDestaque2">
               Veja dicas de como fotografar usando seu celular
-            </p>
-          </div>
+            </figcaption>
+          </figure>
         </a>
 
         <button class="secaoDestaques-form-botao btnPadrao btnPadrao--pequeno" id="abreDialog">
@@ -385,8 +385,8 @@
           </div>
 
           <div class="contatoCampo">
-            <input type="checkbox" checked value="receberDestaques" class="contatoCampo-checkbox">
-            <label class="contatoCampo-label">Receber destaques por email</label>
+            <input type="checkbox" id="receberDestaques" checked value="receberDestaques" class="contatoCampo-checkbox">
+            <label for="receberDestaques" class="contatoCampo-label">Receber destaques por email</label>
           </div>
 
           <div class="contatoCampo">
