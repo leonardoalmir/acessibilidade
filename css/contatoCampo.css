@@ -30,6 +30,11 @@
   display: none;
 }
 
+#receberDestaques {
+  position: absolute;
+  left: -9999px;
+}
+
 .contatoCampo-icone {
   position: absolute;
   left: -2em;
