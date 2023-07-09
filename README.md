@@ -1,2 +1,2 @@
 # Acessibilidade
-Neste site estou aprendendo e aplicando técnicas de acessibilidade (para todos verem).
+Neste site aplicamos técnicas de acessibilidade (para todos verem).
